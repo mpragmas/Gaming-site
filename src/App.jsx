@@ -26,10 +26,10 @@ const cardDetails = [
 function App() {
   return (
     <>
-      <div className="relative mb-36 rounded-b-[200px] bg-[url('../public/banner-bg.jpeg')] px-40 pb-60 pt-12 text-white">
+      <div className="relative mb-36 rounded-b-[200px] bg-[url('./banner-bg.jpeg')] px-40 pb-60 pt-12 text-white">
         <nav className="flex items-center justify-between text-white">
           <div className="font-bold">
-            <img src="../public/logo.png" />
+            <img src="./logo.png" />
           </div>
 
           <div className="flex items-center gap-5 text-sm font-light">
@@ -59,7 +59,7 @@ function App() {
                 BEST GAMING SITE EVER
               </p>
               <img
-                src="../public/caption-dec.png"
+                src="./caption-dec.png"
                 className="absolute left-60 -translate-x-1/2"
               />
               <p className="mt-12 text-sm font-light">
@@ -78,7 +78,7 @@ function App() {
               </div>
             </div>
             <div className="relative">
-              <img src="../public/banner-image.jpg" className="rounded-3xl" />
+              <img src="./banner-image.jpg" className="rounded-3xl" />
               <p className="absolute bottom-0 left-0 inline-block -translate-x-1/2 translate-y-1/2 rounded-full bg-red-400 px-2 py-6 text-2xl font-bold">
                 -40%
               </p>
