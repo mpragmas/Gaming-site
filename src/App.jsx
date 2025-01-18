@@ -70,7 +70,7 @@ function App() {
               <div className="relative mt-12">
                 <input
                   placeholder="Type Something"
-                  className="h-11 w-[400px] rounded-3xl bg-white px-6 py-6 font-light placeholder:text-gray-400"
+                  className="h-11 w-[400px] rounded-3xl bg-white px-6 py-6 font-light text-black placeholder:text-gray-400 focus:outline-none"
                 />
                 <button className="absolute right-48 h-12 rounded-3xl bg-red-400 px-6 hover:bg-blue-500">
                   SEARCH NOW
